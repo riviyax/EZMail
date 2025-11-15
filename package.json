@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "A Node.js Express server for handling contact form submissions and sending emails.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node index.cjs",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "express": "^4.21.2",
-    "nodemailer": "^7.0.6",
+    "nodemailer": "^7.0.10",
+    "nodemon": "^3.1.10",
     "path": "^0.12.7"
   },
   "repository": {
