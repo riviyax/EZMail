@@ -103,7 +103,7 @@ app.post('/send', async (req, res) => {
 
     // 3. Prepare Email Options
     const mailOptions = {
-        from: "EZMail", // Use the registered email as the sender
+        from: `EZMail <${ADMIN_EMAIL}>`, // Use the registered email as the sender
         to: recipientEmail, // Use the registered email as the recipient
         subject: subject,
         html: body // Assuming the 'body' is HTML content
