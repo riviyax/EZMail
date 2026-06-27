@@ -189,3 +189,5 @@ app.listen(PORT, () => {
     console.log(`POST to /send (Developer) or /admin/send (Admin) with your JSON data.`);
     console.log(`DB API URL: ${DB_API_URL}`);
 });
+
+module.exports = app;
