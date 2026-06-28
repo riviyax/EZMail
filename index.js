@@ -19,7 +19,7 @@ const ADMIN_EMAIL = process.env.SMTP_USER;
 
 const transporter = nodemailer.createTransport({
     // Gmail SMTP details
-    host: 'smtp.gmail.com',
+    host: 'mail.spacemail.com',
     port: 465,
     secure: true, // Use SSL/TLS for port 465
     auth: {
